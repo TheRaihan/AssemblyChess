@@ -1,0 +1,32 @@
+2 forward 1 left = 2*8 + 1
+2 forward 1 right =2*8 - 1
+
+
+2 backward 1 left = 2*8 - 1
+2 backward 1 right = 2*8 + 1
+
+
+1 backward 2 left = 1*8 -2 = 6 
+1 forward 2 left = 1*8 + 2 = 10
+
+1 backward 2 right = 1*8 + 2= 10
+1 forward 2 right = 1*8 - 2 = 6 
+
+
+----------------------------------
+n forward p right = n*8 - p      .
+n forward p left = n*8 + p       .
+                                 .
+n backward p right = n*8 + p     .
+n backward p left = n*8 - p      .
+
+----------------------------------
+
+1 backword 3 left = 5
+1 forward 3 left = 11
+
+1 backward 3 right 11
+1 forward 3 right = 5
+
+--------------------------------------
+
